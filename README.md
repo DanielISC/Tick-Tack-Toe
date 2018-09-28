@@ -55,7 +55,7 @@ This file contains the class that creates and displays the board
 doBoard
 ```
 
->Metodo que crea el tablero con las dimenciones requeridas
+>Method that creates the board with the required dimensions
 
 ```
 signBoard
@@ -72,7 +72,7 @@ This file contains the function that validates if a player wins the game
 valWin(r, c)
 ```
 
->Método que recibe las pocicioes en las que el jugador quiere colocar su marca en el tablero
+>Method that receives the positions in which the player wants to place his mark on the board
 
 ## TickTackToe file
 
