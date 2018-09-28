@@ -30,17 +30,20 @@ juego = TickTackToe.new(5)
 juego.play
 ```
 
-El comando sirve para referenciar a la clase principal del proyecto
+The command is used to reference the main class of the project
 ```
 require './TickTackToe'
 ```
-El comando sirve para crear un Tablero con las dimenciones que se deseen
+The command is used to create a Board with the desired dimensions
+
 ```
 juego = TickTackToe.new(5)
 ```
->si no se asigna tamaño, el tablero se crea de 3x3
+>If size is not assigned, the board is created 3x3
 
-El comando inicia el juego
+
+The command starts the game
+
 ```
 juego.play
 ```
@@ -80,4 +83,3 @@ play
 ```
 
 >Method that starts the game
-
